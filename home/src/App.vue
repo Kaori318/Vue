@@ -6,13 +6,15 @@
 </template>
 
 <script>
-import Calc from './components/Calc.vue'
+
+import Calc from './components/Calc.vue';
+
 export default {
   name: 'App',
   components: {
     Calc,
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss">
@@ -25,3 +27,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
