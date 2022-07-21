@@ -6,6 +6,7 @@
 </template>
 
 <script>
+
 import Calc from './components/Calc.vue';
 
 export default {
@@ -26,3 +27,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+

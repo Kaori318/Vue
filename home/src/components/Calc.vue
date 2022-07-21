@@ -4,6 +4,7 @@
       <input type="number" placeholder="x" v-model.number="op1">
       <input type="number" placeholder="y" v-model.number="op2">
       = {{ result }}
+
       <div class="error" v-if="error">
         {{ error }}
       </div>
@@ -41,7 +42,7 @@
 <script>
 export default {
   name: 'Calc',
-  data: () => ({
+  data: () => 
     picked: '',
     show: true,
     op1: '',
@@ -103,12 +104,14 @@ export default {
       } else {
         this.op2 = this.op2.slice(0, -1);
       }
+
     },
   },
 };
 </script>
 
 <style scoped lang="scss">
+
 .keyboard_number {
   margin: 1px;
 }
